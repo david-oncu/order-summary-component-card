@@ -50,6 +50,7 @@
     max-width: 23.438rem;
     background-color: white;
     border-radius: 1.5rem;
+    box-shadow: 0 0 20px -10px hsl(224, 23%, 55%);
 }
 
 .card-image{
@@ -74,7 +75,7 @@
     text-align: center;
     color: var(--clr-text);
     line-height: 1.7rem;
-    padding-inline: 1.5rem;
+    padding-inline: 1rem;
 }
 
 .card-split{
@@ -133,6 +134,7 @@
     background-color: var(--clr-btn);
     margin-bottom: 1rem;
     transition: opacity 200ms ease-in-out;
+    box-shadow: 0 5px 20px -5px var(--clr-btn);
 }
 
 .card-button-proceed:hover{
